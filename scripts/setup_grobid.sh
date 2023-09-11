@@ -16,6 +16,3 @@ cd $HOME/grobid-0.6.2
 # decrease logging level
 # this isn't necessary but is nice to have if you are processing lots of files
 cp $DOC2JSON_HOME/doc2json/grobid2json/grobid/grobid.yaml $HOME/grobid-0.6.2/grobid-home/config/grobid.yaml
-
-## Start Grobid
-./gradlew run
